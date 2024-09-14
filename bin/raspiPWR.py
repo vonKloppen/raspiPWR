@@ -3,8 +3,8 @@
 import syslog, sys, signal, os
 from gpiozero import Button
 
-btnPWR = Button(18)
-btnRBT = Button(23)
+btnPWR = Button(23)
+btnRBT = Button(24)
 
 
 
